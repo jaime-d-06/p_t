@@ -1,9 +1,0 @@
-streamlit
-pandas
-psycopg2-binary 
-sqlalchemy
-tempfile
-os
-re  
-datetime
-pandas.io.excel
