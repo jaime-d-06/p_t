@@ -32,7 +32,6 @@ try:
         port=DB_CONFIG["port"],
         sslmode=DB_CONFIG["sslmode"]
     )
-    st.success("✅ Conectado a Supabase!")
     conn.close()
 except Exception as e:
     st.error(f"❌ Error de conexión: {str(e)}")
