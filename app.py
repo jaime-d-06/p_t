@@ -8,7 +8,7 @@ import os
 import re                                
 from datetime import datetime            
 from pandas.io.excel import ExcelWriter  
-import socket  # <-- Añadido para resolver IPv4
+import socket
 
 # Configuración de PostgreSQL
 DB_CONFIG = {
