@@ -1,14 +1,14 @@
 # Importación de bibliotecas necesarias
-import streamlit as st                   
-import pandas as pd                      
-import psycopg2                          
-from sqlalchemy import create_engine     
-import tempfile                          
-import os                                
-import re                                
-from datetime import datetime            
-from pandas.io.excel import ExcelWriter  
-import socket
+import streamlit as st                   # Framework para crear aplicaciones web interactivas
+import pandas as pd                      # Manipulación y análisis de datos
+import psycopg2                          #Adaptador PostgreSQL para Python
+from sqlalchemy import create_engine     # herramientas de conexión a bases de datos
+import tempfile                          # Manejo de archivos temporales
+import os                                # Funcionalidades del sistema operativo
+import re                                # Expresiones regulares
+from datetime import datetime            # Manejo de fechas y tiempos
+from pandas.io.excel import ExcelWriter  #Escritura en archivos Excel
+import socket                            # Para resolver a IPv4
 
 # Configuración de PostgreSQL
 DB_CONFIG = {
